@@ -2,169 +2,179 @@
 
 /* ********************** */
 
-.asia-exchg {
+.bristol-myers-squibb-logo {
+  width: 35px;
+  height: 30px;
+}
+
+.dididentnaya-luk {
+  width: 35px;
+  height: 34px;
+}
+
+.dividentnaya-alrosa {
+  width: 47px;
+  height: 26px;
+}
+
+.document-percent {
   width: 48px;
-  height: 48px;
+  height: 55px;
 }
 
-.banner-arrow {
-  width: 21px;
-  height: 21px;
+.down-arrow {
+  width: 490.656px;
+  height: 490.656px;
 }
 
-.dvc {
-  width: 300px;
-  height: 49px;
+.group-19-1 {
+  width: 1024px;
+  height: 546px;
 }
 
-.europe-exchg {
-  width: 45px;
-  height: 46px;
+.group-20 {
+  width: 60px;
+  height: 60px;
 }
 
-.featured {
-  width: 16px;
-  height: 16px;
+.group-21 {
+  width: 60px;
+  height: 60px;
 }
 
-.global-exchg {
-  width: 52px;
-  height: 48px;
+.group-3 {
+  width: 61px;
+  height: 61px;
 }
 
-.iconexpand {
+.group {
   width: 36px;
   height: 36px;
 }
 
-.index-slider-next {
-  width: 16px;
-  height: 16px;
+.invalid-name {
+  width: 58px;
+  height: 32px;
 }
 
-.index-slider-prev {
-  width: 16px;
-  height: 16px;
+.logo-dow {
+  width: 80px;
+  height: 27px;
 }
 
-.index-telegram {
-  width: 85px;
-  height: 74px;
+.logo-microsoft {
+  width: 35px;
+  height: 35px;
 }
 
-.input-error {
-  width: 16px;
-  height: 16px;
+.logo-tatneft {
+  width: 21px;
+  height: 41px;
 }
 
-.ipo1 {
-  width: 185px;
-  height: 85px;
-}
-
-.ipo2 {
-  width: 208px;
+.logo-uralkaliy {
+  width: 61px;
   height: 40px;
 }
 
-.ipo3 {
-  width: 152px;
-  height: 84px;
+.logo-yandex {
+  width: 17px;
+  height: 35px;
 }
 
-.ipo4 {
-  width: 185px;
-  height: 36px;
+.micron-small-logo {
+  width: 38px;
+  height: 30px;
 }
 
-.ipo5 {
-  width: 210px;
-  height: 54px;
+.mp-icon {
+  width: 100px;
+  height: 66px;
 }
 
-.itiglobal {
+.netflix-logo {
+  width: 18px;
+  height: 33px;
+}
+
+.novatek {
+  width: 41px;
+  height: 43px;
+}
+
+.obligacionnaya-web-bank {
+  width: 80px;
+  height: 24px;
+}
+
+.opif-tgf-rf {
+  width: 35px;
+  height: 35px;
+}
+
+.phone {
+  width: 35px;
+  height: 35px;
+}
+
+.play {
+  width: 121px;
+  height: 121px;
+}
+
+.portfolio {
+  width: 86px;
+  height: 77px;
+}
+
+.red-logo {
+  width: 229px;
+  height: 104px;
+}
+
+.rosneft-sign {
   width: 27px;
-  height: 31px;
+  height: 35px;
 }
 
-.moscow-exchg {
+.s-1-okay {
+  width: 71px;
+  height: 20px;
+}
+
+.sberbank-logo {
+  width: 35px;
+  height: 34px;
+}
+
+.square-percent {
   width: 48px;
   height: 48px;
 }
 
-.partners1 {
-  width: 300px;
-  height: 49px;
+.vector-2 {
+  width: 19px;
+  height: 11px;
 }
 
-.partners3 {
-  width: 150px;
-  height: 44px;
+.vector-3-1 {
+  width: 40px;
+  height: 50px;
 }
 
-.phone {
+.vector {
   width: 12px;
   height: 16px;
 }
 
-.registration-arrow {
-  width: 21px;
-  height: 21px;
+.visa-inc-logo {
+  width: 61px;
+  height: 20px;
 }
 
-.shape-copy {
-  width: 13px;
-  height: 16px;
-}
-
-.slide-4-img {
-  width: 165px;
-  height: 60px;
-}
-
-.spb-exchg {
-  width: 63px;
-  height: 48px;
-}
-
-.sprite-102da090 {
-  width: 200px;
-  height: 98px;
-}
-
-.sprite-23aee52a {
-  width: 200px;
-  height: 139px;
-}
-
-.sprite-9897454e {
-  width: 200px;
-  height: 98px;
-}
-
-.sprite-aa32ec8f {
-  width: 200px;
-  height: 70px;
-}
-
-.sprite-d2e0e642 {
-  width: 200px;
-  height: 98px;
-}
-
-.tlg {
-  width: 29px;
-  height: 24px;
-}
-
-.usa-exchg {
-  width: 49px;
-  height: 48px;
-}
-
-.videoplay {
-  width: 97px;
-  height: 97px;
+.white-logo-hr-iti-capital {
+  width: 172px;
+  height: 46px;
 }
 
 /* base */
@@ -178,9 +188,18 @@
 /* Разрешения */
 
 @font-face {
-  font-family: 'a_lcdnovaregular';
-  src: url("../fonts/a_lcdnova-webfont.eot");
-  src: url("../fonts/a_lcdnova-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/a_lcdnova-webfont.woff2") format("woff2"), url("../fonts/a_lcdnova-webfont.woff") format("woff"), url("../fonts/a_lcdnova-webfont.ttf") format("truetype");
+  font-family: 'Aeroport';
+  src: url("../fonts/Aeroport/Aeroport.eot");
+  src: url("../fonts/Aeroport/Aeroport.eot?#iefix") format("embedded-opentype"), url("../fonts/Aeroport/Aeroport.woff2") format("woff2"), url("../fonts/Aeroport/Aeroport.woff") format("woff"), url("../fonts/Aeroport/Aeroport.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url("../fonts/Lato/Lato-Regular.eot");
+  src: url("../fonts/Lato/Lato-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Lato/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato/Lato-Regular.woff") format("woff"), url("../fonts/Lato/Lato-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -729,6 +748,104 @@ a:focus {
 
 /* blocks */
 
+.header {
+  min-height: 543px;
+  width: 100%;
+  padding-top: 1px;
+  background-image: url("../img/group-19-1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  color: #292929;
+}
+
+.header__head {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-top: 54px;
+}
+
+.header__logo {
+  margin-left: 32px;
+}
+
+.header__phone {
+  margin-right: 50px;
+  vertical-align: center;
+  text-decoration: none;
+  font-family: Lato;
+  font-size: 21px;
+  font-weight: 500;
+}
+
+.header__phone-icon {
+  display: inline-block;
+}
+
+.header__number {
+  color: #292929;
+}
+
+.header__phone-button {
+  display: none;
+}
+
+.header__main {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.header__title {
+  font-family: Aeroport;
+  font-size: 50px;
+  line-height: 1;
+  margin-bottom: 0;
+}
+
+.header__subtitle {
+  margin-top: 16px;
+  font-family: Aeroport;
+  font-size: 30px;
+  line-height: 1;
+  margin-bottom: 0;
+}
+
+.header__subtitle_red {
+  color: #ec231a;
+}
+
+.header__subtitle_unvisible {
+  display: none;
+}
+
+.header__arrow {
+  background-image: url("../img/svg-for-sprite/down-arrow.svg");
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 30px;
+}
+
 .footer-bot {
   background-color: gray;
   background: #192633;
@@ -747,7 +864,7 @@ a:focus {
 }
 
 body {
-  min-width: 375px;
+  min-width: 320px;
 }
 
 .dropdown-arrow path {
@@ -798,5 +915,63 @@ svg > use {
 @media (max-width: 1024px) {
   body {
     background-color: pink;
+  }
+
+  .header {
+    -webkit-background-size: 343px cover;
+    background-size: 343px cover;
+    min-height: 343px;
+  }
+
+  .header__head {
+    margin-top: 24px;
+  }
+
+  .header__logo {
+    height: 35px;
+    width: 131px;
+  }
+
+  .header__logo svg {
+    height: 35px;
+    width: 131px;
+  }
+
+  .header__phone {
+    display: none;
+  }
+
+  .header__title {
+    max-width: 202px;
+    text-align: center;
+    font-family: Aeroport;
+    font-size: 24px;
+    line-height: 1;
+    color: #131313;
+  }
+
+  .header__subtitle {
+    max-width: 292px;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .header__phone-icon,
+  .header__number {
+    display: none;
+  }
+
+  .header__phone-button {
+    display: block;
+    margin-right: 10px;
+  }
+
+  .header__subtitle_visible {
+    display: none;
+  }
+
+  .header__subtitle_unvisible {
+    display: block;
   }
 }

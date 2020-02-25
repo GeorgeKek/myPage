@@ -1,0 +1,139 @@
+.header
+{
+	min-height: 543px;
+	width: 100%;
+	padding-top: 1px;
+	background-image: url("../img/group-19-1.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #292929;
+}
+.header__head
+{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 54px;
+}
+.header__logo
+{
+	margin-left: 32px;
+}
+.header__phone
+{
+	margin-right: 50px;
+	vertical-align: center;
+	text-decoration: none;
+	font-family: Lato;
+	font-size: 21px;
+	font-weight: 500;
+}
+.header__phone-icon
+{
+	display: inline-block;
+}
+.header__number
+{
+	color: #292929;
+}
+.header__phone-button {
+	display: none;
+}
+.header__main
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 50px;
+}
+.header__title
+{
+	font-family: Aeroport;
+	font-size: 50px;
+	line-height: 1;
+	margin-bottom: 0;
+}
+.header__subtitle
+{
+	margin-top: 16px;
+	font-family: Aeroport;
+	font-size: 30px;
+	line-height: 1;
+	margin-bottom: 0;
+}
+.header__subtitle_red
+{
+	color: #ec231a;
+}
+.header__subtitle_unvisible
+{
+	display: none;
+}
+.header__arrow
+{
+	background-image: url("../img/svg-for-sprite/down-arrow.svg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-top: 30px;
+}
+@media(max-width: $tablet)
+{
+	.header
+	{
+		background-size: 343px cover;
+		min-height: 343px;
+	}
+	.header__head
+	{
+		margin-top: 24px;
+	}
+	.header__logo
+	{
+		height: 35px;
+		width: 131px;
+	}
+	.header__logo svg
+	{
+		height: 35px;
+		width: 131px;
+	}
+	.header__phone
+	{
+		display: none;
+	}
+	.header__title
+	{
+		max-width: 202px;
+		text-align: center;
+		font-family: Aeroport;
+		font-size: 24px;
+		line-height: 1;
+		color: #131313;
+	}
+	.header__subtitle
+	{
+		max-width: 292px;
+		font-family: Lato;
+		font-size: 16px;
+		font-weight: 600;
+	}
+	.header__phone-icon,
+	.header__number
+	{
+		display: none;
+	}
+	.header__phone-button
+	{
+		display: block;
+		margin-right: 10px;
+	}
+	.header__subtitle_visible
+	{
+		display: none;
+	}
+	.header__subtitle_unvisible
+	{
+		display: block;
+	}
+}
