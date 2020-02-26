@@ -19,8 +19,8 @@ $icon-group-3-width: 61px;
 $icon-group-3-height: 61px;
 $icon-group-width: 36px;
 $icon-group-height: 36px;
-$icon-invalid-name-width: 58px;
-$icon-invalid-name-height: 32px;
+$icon-invalid-name-width: 22px;
+$icon-invalid-name-height: 4px;
 $icon-logo-dow-width: 80px;
 $icon-logo-dow-height: 27px;
 $icon-logo-microsoft-width: 35px;
@@ -61,6 +61,8 @@ $icon-square-percent-width: 48px;
 $icon-square-percent-height: 48px;
 $icon-vector-2-width: 19px;
 $icon-vector-2-height: 11px;
+$icon-vector-3-1-1-width: 40px;
+$icon-vector-3-1-1-height: 50px;
 $icon-vector-3-1-width: 40px;
 $icon-vector-3-1-height: 50px;
 $icon-vector-width: 12px;
@@ -223,6 +225,11 @@ $icon-white-logo-hr-iti-capital-height: 46px;
 .vector-2 {
   width: $icon-vector-2-width;
   height: $icon-vector-2-height;
+}
+
+.vector-3-1-1 {
+  width: $icon-vector-3-1-1-width;
+  height: $icon-vector-3-1-1-height;
 }
 
 .vector-3-1 {

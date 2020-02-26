@@ -14,7 +14,7 @@
 /* blocks */
 @import 'blocks/header';
 @import 'blocks/footer';
-@import 'blocks/block';
+@import 'blocks/strategy';
 
 body
 {
@@ -57,19 +57,3 @@ svg > use { fill: none; }
 	width: 1px !important;
 }
 
-.container
-{
-	width: 100%;
-	padding-right: 15px;
-	padding-left: 15px;
-	margin-right: auto;
-	margin-left: auto;
-}
-
-@media (max-width: 1200px)
-{
-	.container
-	{
-		max-width: 1140px;
-	}
-}
