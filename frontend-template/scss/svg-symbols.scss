@@ -9,6 +9,8 @@ $icon-document-percent-width: 48px;
 $icon-document-percent-height: 55px;
 $icon-down-arrow-width: 490.656px;
 $icon-down-arrow-height: 490.656px;
+$icon-download-pdf-width: 30px;
+$icon-download-pdf-height: 36px;
 $icon-group-19-1-width: 1024px;
 $icon-group-19-1-height: 546px;
 $icon-group-20-width: 60px;
@@ -95,6 +97,11 @@ $icon-white-logo-hr-iti-capital-height: 46px;
 .down-arrow {
   width: $icon-down-arrow-width;
   height: $icon-down-arrow-height;
+}
+
+.download-pdf {
+  width: $icon-download-pdf-width;
+  height: $icon-download-pdf-height;
 }
 
 .group-19-1 {

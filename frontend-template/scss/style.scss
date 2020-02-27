@@ -57,3 +57,24 @@ svg > use { fill: none; }
 	width: 1px !important;
 }
 
+.container
+{
+	max-width: 974px;
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+@media(max-width: $tablet)
+{
+	.container
+	{
+		max-width: 100%;
+		padding-right: 0;
+		padding-left: 0;
+	}
+}
+@media (max-width: $mobile)
+{
+}
