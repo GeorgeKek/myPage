@@ -1,0 +1,180 @@
+.more
+{
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 90px;
+	padding-bottom: 110px;
+	background-color: #f2f2f2;
+	position: relative;
+	overflow: hidden;
+	z-index: 1;
+	&::before
+	{
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 1700px;
+	top: 420px;
+	left: 0;
+	background-image: url('../img/architecture-black-diamond-black-and-white-18932@2x.png');
+	background-repeat: no-repeat;
+	background-position: 50%;
+	background-size: contain;
+	z-index: -1;
+	}
+}
+.more__head
+{
+	text-align: center;
+}
+.more__logo
+{
+	line-height: 0;
+}
+.more__header
+{
+	margin-left: 5px;
+	font-family: Aeroport;
+	font-size: 35px;
+	color: #131313;
+}
+.more__descr
+{
+	display: flex;
+	padding-top: 32px;
+	padding-right: 38px;
+	padding-left: 90px;
+	padding-bottom: 220px;
+	margin-top: 60px;
+	margin-left: calc((100% - 914px) / 2);
+	background-color: #fff;
+	padding-right: 20px;
+}
+.more__right
+{
+	padding-top: 22px;
+}
+.more__text
+{
+	padding-top: 15px;
+	padding-right: 38px;
+	margin-left: 95px;
+	p
+	{
+		margin-bottom: 16px;
+		font-family: Lato;
+		font-size: 16px;
+		line-height: 25px;
+		color: #000000;
+	}
+}
+.more__video
+{
+	margin-top: -164px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 915px;
+	height: 515px;
+	background-color: red;
+}
+.more__text .more__bold
+{
+	font-family: Lato-Semibold;
+	line-height: 28px;
+}
+.more__text .more__bold:nth-child(4)
+{
+	margin-top: 40px;
+}
+@media(max-width: $tablet)
+{
+	.more
+	{
+		padding-top: 36px;
+		padding-bottom: 60px;
+	}
+	.mp-icon
+	{
+		width: 87px;
+	}
+	.more__logo
+	{
+		margin-bottom: 11px;
+	}
+	.more__head
+	{
+		margin-right: 0;
+	}
+	.more__header
+	{
+		font-size: 24px;
+	}
+	.more__right
+	{
+		padding-top: 0;
+		svg
+		{
+			width: 57px;
+		}
+	}
+	.more__descr
+	{
+		flex-direction: column;
+		align-items: center;
+		margin-left: 0;
+		margin-top: 40px;
+		padding-top: 26px;
+		padding-left: 10px;
+		padding-right: 10px;
+		padding-bottom: 43px;
+	}
+	.more__text
+	{
+		padding-top: 9px;
+		padding-right: 8px;
+		margin-top: 0;
+		padding-left: 4px;
+		margin-left: 0;
+		p
+		{
+			line-height: 22px;
+			margin-bottom: 19px;
+		}
+		p:nth-child(3)
+		{
+			display: none;
+		}
+		p:last-child
+		{
+			margin-bottom: 0;
+		}
+	}
+	.more__video
+	{
+		max-width: 420px;
+		max-height: 280px;
+		margin-top: 0px;
+	}
+	.more__text .bold:nth-child(4)
+	{
+		margin-top: 33px;
+	}
+	.more__text .more__bold
+	{
+		margin-bottom: 17px;
+		line-height: 23px;
+	}
+	.more::before
+	{
+		display: none;
+	}
+}
+@media (max-width: $small-mobile)
+{
+	.more__video
+	{
+		width: 320px;
+		height: 180px;
+		margin-top: 0px;
+	}
+}

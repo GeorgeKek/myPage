@@ -1,0 +1,254 @@
+.strategies
+{
+	padding-top: 44px;
+}
+.strategies__advantage
+{
+	display:flex;
+	justify-content: space-between;
+	margin-bottom: 43px;
+}
+.strategies__percent-value
+{
+	height: 77px;
+	padding-left: 43px;
+	border-left: 5px solid #ec231a;
+	padding-top: 4px;
+}
+.strategies__curs
+{
+	font-family: Lato;
+	font-size: 14px;
+	color: #b2b2b2;
+}
+.strategies__percents
+{
+	font-family: Aeroport;
+	font-size: 48px;
+	color: #131313;
+	line-height: 46px;
+}
+.strategies__story
+{
+	max-width: 480px;
+	width: 100%;
+	margin-right: 18%;
+	padding-top: 4px;
+	padding-left: 2px;
+}
+.strategies__portfolio
+{
+	font-family: Lato;
+	font-size: 14px;
+	color: #808080;
+}
+.strategies__last-title
+{
+	font-family: Aeroport;
+	font-size: 35px;
+	color: #131313;
+	padding-top: 2px;
+	margin-left: -2px;
+	margin-bottom: 19px;
+}
+.strategies__description
+{
+	p:not(:last-child)
+	{
+		margin-bottom: 11px;
+	}
+	p:nth-child(2)
+	{
+		margin-left: -1px;
+	}
+}
+.strategies__description p
+{
+	font-family: Lato;
+	font-size: 16px;
+	line-height: 25px;
+	color: #292929;
+}
+.strategies__footer
+{
+	height: 93px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 48px;
+	padding-right: 51px;
+	padding-bottom: 26px;
+	padding-top: 25px;
+	border-top: solid 1px #e5e5e5;
+}
+.strategies__wrap
+{
+	display: flex;
+	align-items: center;
+
+	svg
+	{
+		margin-right: 15px;
+	}
+}
+.strategies__download
+{
+	display: none;
+}
+.strategies__download-text
+{
+	max-width: 53px;
+	width: 100%;
+	margin-left: 10px;
+	font-family: Lato;
+	font-size: 12px;
+	color: #767676;
+}
+.strategies__income-text
+{
+	max-width: 65px;
+	width: 100%;
+	margin-left: 10px;
+	font-family: Lato;
+	line-height: 15px;
+	font-size: 12px;
+	color: #767676;
+}
+.strategies__income
+{
+	margin-left: auto;
+	margin-top: 0;
+	display: flex;
+}
+.strategies__button
+{
+	display: block;
+	margin-left: 20px;
+	width: 326px;
+	text-align: center;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	border-radius: 100px;
+	background-color: #e05b50;
+	font-family: Lato;
+	font-size: 16px;
+	line-height: 16px;
+	color: #fff;
+}
+.strategies__button-text_mobile
+{
+	display: none;
+}
+@media (max-width: $tablet)
+{
+	.strategies-container_mobile
+	{
+		width: 100%;
+		padding-right: 10px;
+		padding-left: 10px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.strategies__advantage
+	{
+		margin-top: 0px;
+		flex-wrap: wrap;
+	}
+	.strategies__percent-value
+	{
+		height: 59px;
+		padding-left: 10px;
+		border-left: 3px solid #ec231a;
+	}
+	.strategies__story
+	{
+		width: 100%;
+		margin-top: 25px;
+		padding-left: 10px;
+		padding-right: 15px;
+	}
+	.strategies__curs
+	{
+		font-size: 12px;
+	}
+	.strategies__percents
+	{
+		font-size: 35px;
+	}
+	.strategies__income
+	{
+	margin-left: 20px;
+	}
+	.strategies__footer
+	{
+		justify-content: space-around;
+		align-items: center;
+	}
+	.strategies__download
+	{
+		margin-top: 0px;
+		display: flex;
+		margin-left: auto;
+	}
+	.strategies__button
+	{
+		margin-top: 0px;
+		width: 250px;
+	}
+	.strategies__button-text_mobile
+	{
+		display: inline;
+	}
+	.strategies__button-text_desk
+	{
+		display: none;
+	}
+}
+@media (max-width: $mobile)
+{
+	.strategies__advantage
+	{
+		margin-bottom: 18px;
+	}
+	.strategies__footer
+	{
+		flex-wrap: wrap;
+		justify-content: center;
+		padding-top: 0;
+		height: auto;
+		padding-bottom: 40px;
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+	.strategies__wrap
+	{
+		max-width: 300px;
+		width: 100%;
+		justify-content: center;
+	}
+	.strategies__download
+	{
+		margin-left: 0;
+		margin-top: 30px;
+	}
+	.strategies__income
+	{
+		margin-top: 30px;
+	}
+	.strategies__button
+	{
+		margin-left: 0;
+		margin-top: 30px;
+	}
+	.strategies__story
+	{
+		margin-right: 0;
+	}
+}
+@media (max-width: $small-mobile)
+{
+	.strategies__footer
+	{
+		border-top: none;
+	}
+}

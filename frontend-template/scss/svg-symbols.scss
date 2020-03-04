@@ -23,6 +23,8 @@ $icon-group-width: 36px;
 $icon-group-height: 36px;
 $icon-invalid-name-width: 22px;
 $icon-invalid-name-height: 4px;
+$icon-line-5-width: 80px;
+$icon-line-5-height: 21px;
 $icon-logo-dow-width: 80px;
 $icon-logo-dow-height: 27px;
 $icon-logo-microsoft-width: 35px;
@@ -132,6 +134,11 @@ $icon-white-logo-hr-iti-capital-height: 46px;
 .invalid-name {
   width: $icon-invalid-name-width;
   height: $icon-invalid-name-height;
+}
+
+.line-5 {
+  width: $icon-line-5-width;
+  height: $icon-line-5-height;
 }
 
 .logo-dow {

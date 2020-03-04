@@ -15,6 +15,11 @@
 @import 'blocks/header';
 @import 'blocks/footer';
 @import 'blocks/strategy';
+@import 'blocks/strategies';
+@import 'blocks/all-strats';
+@import 'blocks/more';
+@import 'blocks/why';
+@import 'blocks/questions';
 
 body
 {
@@ -59,7 +64,7 @@ svg > use { fill: none; }
 
 .container
 {
-	max-width: 974px;
+	max-width: 944px;
 	width: 100%;
 	padding-right: 15px;
 	padding-left: 15px;

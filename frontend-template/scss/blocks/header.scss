@@ -13,10 +13,11 @@
 {
 	display: flex;
 	justify-content: space-between;
-	margin-top: 54px;
+	margin-top: 43px;
 }
 .header__logo
 {
+	margin-top: -10px;
 	margin-left: 32px;
 }
 .header__phone
@@ -44,7 +45,7 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin-top: 50px;
+	margin-top: 63px;
 }
 .header__title
 {
@@ -55,7 +56,7 @@
 }
 .header__subtitle
 {
-	margin-top: 16px;
+	margin-top: 21px;
 	font-family: Aeroport;
 	font-size: 30px;
 	line-height: 1;
@@ -71,11 +72,7 @@
 }
 .header__arrow
 {
-	background-image: url("../img/svg-for-sprite/down-arrow.svg");
-	background-size: 100% 100%;
-	background-repeat: no-repeat;
-	background-position: center;
-	margin-top: 30px;
+	margin-top: 27px;
 }
 @media(max-width: $tablet)
 {
@@ -135,5 +132,40 @@
 	.header__subtitle_unvisible
 	{
 		display: block;
+	}
+}
+@media (max-width: $small-mobile)
+{
+	.header
+	{
+		padding-bottom: 43px;
+	}
+	.header__logo
+	{
+		margin-left: 10px;
+		margin-top: 0;
+	}
+	.header__head
+	{
+		margin-bottom: 54px;
+	}
+	.header__main
+	{
+		margin-top: 0;
+	}
+	.header__title
+	{
+		margin-bottom: 11px;
+		line-height: 1.3;
+	}
+	.header__subtitle
+	{
+		margin-top: 0;
+		margin-bottom: 13px;
+	}
+	.header__arrow
+	{
+		margin-top: 0;
+		padding-top: 20px;
 	}
 }

@@ -17,7 +17,7 @@
 				</div>
 				<div class="strategy__price">
 					<div class="strategy__value">
-						<div class="strategy__count">33 333</div>
+						<div class="strategy__count strategy__count_left">33 333</div>
 						<div class="strategy__period">рублей в месяц</div>
 					</div>
 					<div class="strategy__or">
@@ -50,7 +50,7 @@
 			</div>
 			<div class="strategy__vert-line"></div>
 			<div class="strategy__invest">
-				<div class="strategy__invest-descr">
+				<div class="strategy__invest-descr strategy__invest-descr_bottom">
 					Рассчитываете на доходность
 				</div>
 				<div class="strategy__option">
@@ -101,54 +101,6 @@
 				</div>
 			</div>
 		</div>
-		<div class="strategy__advantage">
-			<div class="strategy__percent-value">
-				<div class="strategy__curs">
-					В рублях, до
-				</div>
-				<div class="strategy__percents">
-					30%
-				</div>
-			</div>
-			<div class="strategy__story">
-				<div class="strategy__portfolio">
-					Модельный портфель российских акций со средним уровнем риска
-				</div>
-				<div class="strategy__last-title">
-					Выбор ITI Capital
-				</div>
-				<div class="strategy__description">
-					<p>Эксперты ITI Capital отобрали акции с хорошими перспективами роста котировок.</p>
-					<p>Основные секторы инвестирования: нефтегазовый, горнодобывающий, технологии, финансы.</p>
-					<p>50 000 руб. — минимальная сумма инвестиции.</p>
-				</div>
-			</div>
-		</div>
-		<div class="strategy__line-bottom strategy__line-bottom_hidden"></div>
-		<div class="strategy__footer strategy-container_mobile">
-			<div class="strategy__wrap">
-				<svg role="img" class="logo-yandex">
-					<use xlink:href="#logo-yandex"></use>
-				</svg>
-				<svg role="img" class="sberbank-logo">
-					<use xlink:href="#sberbank-logo"></use>
-				</svg>
-				<svg role="img" class="novatek">
-					<use xlink:href="#novatek"></use>
-				</svg>
-				<svg role="img" class="invalid-name">
-					<use xlink:href="#invalid-name"></use>
-				</svg>
-			</div>
-			<div class="strategy__download">
-				<svg role="img" class="download-pdf">
-					<use xlink:href="#download-pdf"></use>
-				</svg>
-				<div class="strategy__download-text">Скачать</div>
-			</div>
-			<button class="strategy__button">
-				Выбрать <span class="strategy__button-text_desk">этот модельный портфель</span><span class="strategy__button-text_mobile">эту стратегию</span> →
-			</button>
-		</div>
+	{% include 'strategies.twig' %}
 	</section>
 </div>
