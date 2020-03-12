@@ -3,37 +3,27 @@
 	<div class="strategies__advantage">
 		<div class="strategies__percent-value">
 			<div class="strategies__curs">
-				В рублях, до
+				{{ props.currency }}
 			</div>
 			<div class="strategies__percents">
-				30%
+				{{ props.percent }}%
 			</div>
 		</div>
 		<div class="strategies__story">
 			<div class="strategies__portfolio">
-				Модельный портфель российских акций со средним уровнем риска
+				{{ props.risk }}
 			</div>
 			<div class="strategies__last-title">
-				Выбор ITI Capital
+				{{ props.title }}
 			</div>
 			<div class="strategies__description">
-				<p>Эксперты ITI Capital отобрали акции с хорошими перспективами роста котировок.</p>
-				<p>Основные секторы инвестирования: нефтегазовый, горнодобывающий, технологии, финансы.</p>
-				<p>50 000 руб. — минимальная сумма инвестиции.</p>
+				{{ props.descr }}
 			</div>
 		</div>
 	</div>
 	<div class="strategies__footer strategies-container_mobile">
 		<div class="strategies__wrap">
-			<svg role="img" class="logo-yandex">
-				<use xlink:href="#logo-yandex"></use>
-			</svg>
-			<svg role="img" class="sberbank-logo">
-				<use xlink:href="#sberbank-logo"></use>
-			</svg>
-			<svg role="img" class="novatek">
-				<use xlink:href="#novatek"></use>
-			</svg>
+			{{ props.company }}
 			<svg role="img" class="invalid-name">
 				<use xlink:href="#invalid-name"></use>
 			</svg>
