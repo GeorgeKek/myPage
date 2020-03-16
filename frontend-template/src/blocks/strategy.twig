@@ -53,22 +53,24 @@
 				<div class="strategy__invest-descr strategy__invest-descr_bottom">
 					Рассчитываете на доходность
 				</div>
-				<div class="strategy__option">
+				<div class="strategy__option" onclick="o2.openStrategies(this)">
 					<div class="strategy__wrapper">
 					<div class="strategy__wrap">
-								<div class="strategy__percent">
-									<span>до </span>30%
-								</div>
-								<div class="strategy__specification">
-									Средний уровень риска
-								</div>
-								<div class="strategy__opening">
-									<svg role="img" class="vector-2">
-										<use xlink:href="#vector-2"></use>
-									</svg>
-								</div>
+						<div class="strategy__values">
+							<div class="strategy__percent">
+								<span>до </span>30%
+							</div>
+							<div class="strategy__specification">
+								Средний уровень риска
+							</div>
+						</div>
+						<div class="strategy__opening">
+							<svg role="img" class="vector-2">
+								<use xlink:href="#vector-2"></use>
+							</svg>
+						</div>
 					</div>
-					<ul>
+					<ul class="strategy__list">
 					</ul>
 					</div>
 				</div>
@@ -107,6 +109,6 @@
 				</div>
 			</div>
 		</div>
-	{% include 'strategies.twig' %}
+	<div class="selected__strategy"></div>
 	</section>
 </div>

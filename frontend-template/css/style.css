@@ -1427,6 +1427,19 @@ a:focus {
   height: 83px;
 }
 
+.strategy__values {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  height: 83px;
+}
+
 .strategy__percent span {
   padding-left: 26px;
   font-family: Lato;
@@ -1438,6 +1451,7 @@ a:focus {
   font-family: Aeroport;
   font-size: 35px;
   color: #131313;
+  white-space: nowrap;
 }
 
 .strategy__specification {
@@ -1451,6 +1465,15 @@ a:focus {
   margin-top: 8px;
   margin-left: 45px;
   margin-right: 15px;
+}
+
+.strategy__opening_top {
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+  -webkit-transform: rotate(-180deg);
+  -ms-transform: rotate(-180deg);
+  transform: rotate(-180deg);
 }
 
 .strategy__line-slider {
@@ -1649,6 +1672,10 @@ a:focus {
   display: none;
 }
 
+.selected__strategy {
+  padding-top: 44px;
+}
+
 .strategies {
   padding-top: 44px;
 }
@@ -1842,6 +1869,10 @@ a:focus {
 .all-strats__item {
   background-color: #fff;
   margin-top: 33px;
+}
+
+.all-strats__item_hidden {
+  display: none;
 }
 
 .all-strats__wrap {
@@ -2383,6 +2414,14 @@ svg > use {
     margin-bottom: 21px;
   }
 
+  .strategy__wrapper {
+    margin-top: 0;
+  }
+
+  .strategy__values {
+    height: 72px;
+  }
+
   .strategy__horiz-line {
     display: none;
   }
@@ -2744,6 +2783,7 @@ svg > use {
 
   .strategy__percent {
     font-size: 30px;
+    margin-right: 10px;
   }
 
   .strategy__specification {
@@ -2979,8 +3019,8 @@ svg > use {
   .strategy__wrap {
     margin-top: 0;
     height: auto;
-    padding-top: 13px;
-    padding-bottom: 13px;
+    padding-top: 0;
+    padding-bottom: 0;
   }
 
   .strategy__invest-descr_bottom {
@@ -2994,7 +3034,7 @@ svg > use {
   }
 
   .strategy__horiz-line {
-    margin-top: 115px;
+    margin-top: 100px;
     margin-bottom: -2px;
   }
 
